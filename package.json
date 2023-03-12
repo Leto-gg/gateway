@@ -5,6 +5,8 @@
   "devDependencies": {
     "nodemon": "^2.0.21"
   },
-  "start": "node express.js",
-  "dev": "nodemon express.js"
+  "scripts": {
+    "start": "node express.js",
+    "dev": "nodemon express.js"
+  }
 }
