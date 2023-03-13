@@ -25,6 +25,9 @@ app.post('/', async (req, res) => {
     }
 });
 
+
+// Checksum for internal comms 
+
 app.listen(PORT, () => {
     console.log(`Server listening on port ${PORT}`);
 });
