@@ -6,7 +6,7 @@ const PORT = process.env.PORT || 3000;
 const WEB3_STORAGE_API_KEY = 'YOUR_WEB3_STORAGE_API_KEY';
 
 app.use(express.json());
-
+    
 app.post('/', async (req, res) => {
     try {
         const response = await fetch('https://api.web3.storage/ipfs/add', {
@@ -26,8 +26,14 @@ app.post('/', async (req, res) => {
 });
 
 
-// Checksum for internal comms 
 
+
+
+// Checksum for internal comms 
+//
 app.listen(PORT, () => {
     console.log(`Server listening on port ${PORT}`);
 });
+
+
+
