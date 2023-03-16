@@ -1,3 +1,3 @@
 # w3-proxy-gateway
 
-![leto-w3-mapping](https://user-images.githubusercontent.com/30084404/224522872-29f575f2-65be-4fd1-9515-d11d3e13b2e4.png)
+![Proxy Gateway Architecture](https://user-images.githubusercontent.com/30084404/225565389-d78d75a7-7ee7-44c8-8ece-3793928c0f30.png)
