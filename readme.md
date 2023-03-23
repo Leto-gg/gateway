@@ -4,7 +4,7 @@ This document explains the IPFS gateway with a built-in functionality for record
 
 This implementation acts as a Proxy-Gateway(gateway on top of a gateway) that is built on top of the Web3.Storage Superfast Gateway found [here](https://github.com/web3-storage/w3link)
 
-The main purpose of the CID metrics feature is to keep track of the CIDs requested, providing valuable insights into the usage patterns and helping in optimizing the performance and user experience of the IPFS gateway.
+The main purpose of the CID metrics feature is to keep track of the CIDs requested, providing anonymous but valuable insights into the usage patterns and helping in optimizing the performance and user experience of the IPFS gateway.
 
 # Features
 Request tracking: The gateway records every CID requested by users, along with a timestamp.
