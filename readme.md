@@ -14,4 +14,5 @@ Data export: The metrics can be exported as CSV, JSON, or other formats for furt
 
 ![Proxy Gateway Architecture](https://user-images.githubusercontent.com/30084404/225565389-d78d75a7-7ee7-44c8-8ece-3793928c0f30.png)
 
-# Notes: This is an act of caching layers built on top of eachother... 
+# Notes 
+Web3.Storage is not technically a IPFS Gateway but a bunch of caching layers built on top of the various IPFS Gateways. We are adding more CF layers! This is an act of caching layers built on top of eachother... 
