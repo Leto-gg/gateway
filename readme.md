@@ -1,10 +1,6 @@
 # proxy-gateway W.I.P.
 
-This document explains the IPFS gateway with a built-in functionality for recording requested Content Identifiers (CIDs) for metrics purposes. The IPFS (InterPlanetary File System) gateway is a distributed, content-addressed file system that provides a fast, secure, and decentralized way of accessing and sharing data across the internet to the browser. 
-
-
-This implementation acts as a Proxy-Gateway(gateway on top of a gateway) that is built on top of the Web3.Storage Superfast Gateway found [here](https://github.com/web3-storage/w3link)
-
+This is an implementation of an IPFS Gateway what anonymously tracks the volume of requests of IPFS objects/CID's. 
 
 ![Proxy Gateway Architecture](https://user-images.githubusercontent.com/30084404/225565389-d78d75a7-7ee7-44c8-8ece-3793928c0f30.png)
 
