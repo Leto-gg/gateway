@@ -17,3 +17,26 @@ Data export: The metrics can be exported as CSV, JSON, or other formats for furt
 
 # Notes 
 Web3.Storage is not technically a IPFS Gateway but a bunch of caching layers built on top of the various IPFS Gateways. We are adding more CF layers! This is an act of caching layers built on top of eachother... 
+
+# proxy-gateway
+
+`proxy-gateway` is an open-source project that provides an anonymous proxy for the IPFS gateway. The goal of this project is to allow users to access IPFS content without revealing their IP addresses or other identifiable information. The project is built using Node.js and Express and is designed to be easy to set up and use.
+
+## Features
+
+- Anonymously access IPFS content through the gateway.
+- Keeps user information private by not logging IP addresses or other identifiable information.
+- Lightweight and easy to deploy.
+
+## Prerequisites
+
+Before getting started, make sure you have the following installed on your system:
+
+- Node.js (version 14.x or higher)
+- npm (version 6.x or higher)
+
+## Getting Started
+
+To set up and run `proxy-gateway`, follow these steps:
+
+1. Clone the repository:
