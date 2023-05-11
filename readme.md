@@ -18,13 +18,6 @@ Request tracking: The gateway records every CID requested by users, along with a
 Metrics generation: The gateway generates metrics based on the frequency and recency of CID requests.
 Data export: The metrics can be exported as CSV, JSON, or other formats for further analysis.
 
-## Prerequisites
-
-Before getting started, make sure you have the following installed on your system:
-
-- Node.js (version 14.x or higher)
-- npm (version 6.x or higher)
-
 ## Getting Started
 
 To set up and run `proxy-gateway`, follow these steps:
