@@ -1,1 +1,0 @@
-// Create a new Lambda function- node.js runtime
