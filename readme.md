@@ -18,3 +18,6 @@ Request tracking: The gateway records every CID requested by users, along with a
 Metrics generation: The gateway generates metrics based on the frequency and recency of CID requests.
 Data export: The metrics can be exported as CSV, JSON, or other formats for further analysis.
 
+## Usage
+
+This proxy gateway has been implemented similarly to other gateways that work with both IPFS and IPNS. Calling an object with current implementation, looks like "leto.gg/ipfs/cid" or "leto.gg/ipns/cid". This is because other gateways support both IPFS and IPNS CIDs. Simply add your IPFS cid into your browsers address bar and as long as the data is stored on Web3.Storage(like any other gateway), the gateway should return your data very quickly!
