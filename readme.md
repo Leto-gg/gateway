@@ -28,7 +28,7 @@ Accessing data stored on IPFS is straightforward through the use of various IPFS
 
 When you [store data using the web3.storage client](https://web3.storage/docs/how-tos/store/), the put method returns an [IPFS content identifier (CID)](https://docs.ipfs.io/concepts/content-addressing/) string. That CID points to an IPFS directory that contains all the files you passed in using the put method.
 
-Using those cids to point to your program/application is how you retrieve IPFS data from your 
+- Using those cids to point to your program/application is how you retrieve IPFS data from the Web3.Storage infrastructure 
 
 w3link (https://ipfs.w3s.link/*) has a rate limit of 200 requests per minute by IP.
 
