@@ -32,13 +32,7 @@ Using those cids to point to your program/application is how you retrieve IPFS d
 
 w3link (https://ipfs.w3s.link/*) has a rate limit of 200 requests per minute by IP.
 
-### Setting the filename for downloads via Gateways
 
-When downloading files from an HTTP gateway, web browsers will set the default filename for the downloaded file based on the path component of the gateway link. For example, if you use your browser's "Save link as..." feature on the following link, it should prompt you to save a file named "treehouse.jpeg":
-
-- https://bafybeicfnbaeigdtklwkrj35r4wtfppix732zromsadvgiu33mowah74yq.ipfs.w3s.link/treehouse.jpeg
-
-In the link above, the CID bafybeicfnbaeigdtklwkrj35r4wtfppix732zromsadvgiu33mowah74yq points to an IPFS directory listing, which maps from the filename treehouse.jpeg to the CID for the image itself.
 
 ## Issues and Testing
 
