@@ -20,7 +20,7 @@ Data export: The metrics can be exported as CSV, JSON, or other formats for furt
 
 ## Switching Gateways
 
-If you already have a program/application using an IPFS Gateway, its is very simple to switch to our gateway simply by chaning the address of your Gateway to the Leto Gateway located at "leto.gg/ipfs/cid".
+If you already have a program/application using an IPFS Gateway, its is very simple to switch to our gateway simply by changing the address of your Gateway to the Leto Gateway located at "leto.gg/ipfs/cid".
 
 ## Using an IPFS HTTP Gateway
 
