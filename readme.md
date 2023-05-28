@@ -22,6 +22,8 @@ Data export: The metrics can be exported as CSV, JSON, or other formats for furt
 
 If you already have a program/application using an IPFS Gateway, its is very simple to switch to our gateway simply by changing the address of your Gateway to the Leto Gateway located at "https://leto.gg/ipfs/".
 
+Example Hyperlink, linking to an IPFS object: "https://leto.gg/ipfs/bafybeihhgxbaywvizkcfqxdgfbu5ys242xxc4wiv5y7tykmfzp5qwyrtlq"
+
 ## Using an IPFS HTTP Gateway
 
 Accessing data stored on IPFS is straightforward through the use of various IPFS HTTP gateways. Given that IPFS is a decentralized, peer-to-peer network, any public HTTP gateway can be utilized to retrieve your data. For the purposes of this guide, we'll be using the gateway provided by Leto.gg. Notably, this service is built upon the Web3.Storage Superfast Gateway. In addition to retrieving your data, it also provides you with valuable anonymous metrics.
