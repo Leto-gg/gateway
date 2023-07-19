@@ -1,4 +1,4 @@
-# Gateway W.I.P.
+# Leto Gateway
 
 This is an implementation of an IPFS Gateway what anonymously tracks the volume of requests of IPFS objects/CID's. 
 The main purpose of the CID metrics feature is to keep track of the CIDs requested, providing anonymous but valuable insights into the usage patterns and helping in optimizing the performance and user experience of the IPFS gateway.
