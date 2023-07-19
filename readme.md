@@ -26,7 +26,9 @@ Example Hyperlink, linking to an IPFS object: "https://leto.gg/ipfs/bafybeihhgxb
 
 ## Using an IPFS HTTP Gateway
 
-Accessing data stored on IPFS is straightforward through the use of various IPFS HTTP gateways. Given that IPFS is a decentralized, peer-to-peer network, any public HTTP gateway can be utilized to retrieve your data. For the purposes of this guide, we'll be using the gateway provided by Leto.gg. Notably, this service is built upon the Web3.Storage Superfast Gateway. In addition to retrieving your data, it also provides you with valuable anonymous metrics.
+Accessing data stored on IPFS is straightforward through the use of various IPFS HTTP gateways. 
+
+Given that IPFS is a decentralized, peer-to-peer network, any public HTTP gateway can be utilized to retrieve your data. For the purposes of this guide, we'll be using the gateway provided by Leto.gg. Notably, this service is built upon the Web3.Storage Superfast Gateway. In addition to retrieving your data, it also provides you with valuable anonymous metrics.
 
 When you [store data using the web3.storage client](https://web3.storage/docs/how-tos/store/), the put method returns an [IPFS content identifier (CID)](https://docs.ipfs.io/concepts/content-addressing/) string. That CID points to an IPFS directory that contains all the files you passed in using the put method.
 
